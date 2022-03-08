@@ -41,8 +41,11 @@
   color: #91972a;
 }
 .nav {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
   align-items: center;
 }
 .nav-bar {
@@ -50,6 +53,14 @@
 }
 /* ====end of navbar css== */
 .hero {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(45, 75, 70, 0.5)),
+      to(rgba(35, 40, 98, 0.5))
+    ),
+    url(./image/backgroundfurniture.jpg);
   background-image: linear-gradient(
       rgba(45, 75, 70, 0.5),
       rgba(35, 40, 98, 0.5)
@@ -60,8 +71,11 @@
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   border-bottom: 4px solid #ff9505;
 }
@@ -106,6 +120,14 @@
 }
 @media screen and (min-width: 750px) {
   .hero {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(45, 75, 70, 0.5)),
+        to(rgba(35, 40, 98, 0.5))
+      ),
+      url(./image/backgroundfurniture.jpg);
     background-image: linear-gradient(
         rgba(45, 75, 70, 0.5),
         rgba(35, 40, 98, 0.5)
@@ -169,8 +191,11 @@ span {
   margin-right: 4rem;
 }
 .about-info p {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   align-self: center;
   max-width: 35rem;
@@ -215,12 +240,16 @@ span {
   padding-bottom: 5rem;
 }
 .pro-title {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
 }
 /* parlour css */
 .first-img:hover {
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
   margin-bottom: 2rem;
 }
@@ -249,7 +278,9 @@ span {
   font-weight: 700;
 }
 .parlour-footer {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
 }
 .parlour-btn {
@@ -267,6 +298,7 @@ span {
 /* end of parlour css */
 /* dining css */
 .second-img:hover {
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
   margin-bottom: 2rem;
 }
@@ -307,12 +339,15 @@ span {
   border-radius: 7px;
 }
 .dining-footer {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
 }
 /* end of dining css */
 /* kitchen css */
 .third-img:hover {
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
   margin-bottom: 2rem;
 }
@@ -353,12 +388,15 @@ span {
   border-radius: 7px;
 }
 .kitchen-footer {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
 }
 /* end of kitchen css */
 /* bedroom css */
 .fourth-img:hover {
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
   margin-bottom: 2rem;
 }
@@ -399,7 +437,9 @@ span {
   border-radius: 7px;
 }
 .bedroom-footer {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
 }
 @media screen and (min-width: 780px) {
@@ -483,8 +523,11 @@ span {
   padding-bottom: 5rem;
 }
 .services-title {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
 }
 /* assemble css */
@@ -519,7 +562,9 @@ span {
   border-radius: 7px;
 }
 .assemble-footer {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
 }
 /* end of assemble service */
@@ -555,7 +600,9 @@ span {
   border-radius: 7px;
 }
 .repair-footer {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
 }
 
@@ -592,7 +639,9 @@ span {
   border-radius: 7px;
 }
 .moving-footer {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
 }
 /* end of moving css */
@@ -633,12 +682,15 @@ span {
 /* gallery css */
 
 .back:hover {
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 .room:hover {
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 .conference:hover {
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 .gallery {
@@ -652,8 +704,11 @@ span {
   margin-bottom: 4rem;
 }
 .title-gallery {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
 }
 .room {
@@ -669,7 +724,9 @@ span {
   width: 100;
 }
 .gallery {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: space-evenly;
   justify-content: space-evenly;
   flex-wrap: nowrap;
 }
@@ -731,13 +788,19 @@ input {
   height: 1.8rem;
 }
 .social {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
 }
 .social {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   font-size: 25px;
 }
